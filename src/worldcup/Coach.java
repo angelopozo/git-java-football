@@ -6,6 +6,10 @@ package worldcup;
 public class Coach extends Person {
 	String style;
 
+	public Coach(int age){
+		super(age);
+	}
+
 	public void train() {
 		System.out.println("train");
 	}
