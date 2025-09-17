@@ -157,7 +157,7 @@ public class Game {
 			// specific actions
 			if (selectedPlayer instanceof Forward) {
 				((Forward) selectedPlayer).drible();
-				((Forward) selectedPlayer).kickBall(this.getBall());
+				((Forward) selectedPlayer).kick(this.getBall());
 			} else if (selectedPlayer instanceof Midfielder) {
 				((Midfielder) selectedPlayer).organize();
 			} else if (selectedPlayer instanceof Defender) {
