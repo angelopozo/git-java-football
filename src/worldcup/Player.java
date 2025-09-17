@@ -3,9 +3,8 @@ package worldcup;
 public class Player extends Person {
     private String position;
 
-    public Player(String position, int age) {
-        super(age);
-        this.position = position;
+    public Player() {
+        super();
     }
 
     public String getPosition() {
