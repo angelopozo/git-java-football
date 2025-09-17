@@ -8,6 +8,8 @@ import java.util.Random;
 public class Defender extends Player { 
 	boolean mark;
 
+
+
     public void steal(Ball ball){
     	String[] effects = { "with fault", "without fault" };
 
